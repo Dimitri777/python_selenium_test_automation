@@ -39,8 +39,7 @@ class TestFormFill(unittest.TestCase):
         email_field.clear()
         email_field.send_keys("test@example.com")
 
-        address_field = driver.find_element(By.ID,
-                                            "address")
+        address_field = driver.find_element(By.ID, "address")
         address_field.clear()
         address_field.send_keys("Test Address 123")
 
